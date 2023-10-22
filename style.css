@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  display: block;
+}
+
+.section {
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  /* display: inline-flex; */
+}
+
+.section-black {
+  border: 1px solid #8100A6;
+  padding: 10px;
+  color: white;
+  /* display: inline-flex; */
+}
+
+@font-face {
+    font-family: 'gearfont';
+    src: url('font/FabulousSteampunk-1rYZ.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'robotfont';
+    src: url('font/Exwayer-X3eqa.ttf') format('truetype');
+}
+
+#gear-text {
+    font-family: 'gearfont';
+    color: white;
+    font-size: 150px;
+}
+
+#robot-text {
+    font-family: 'robotfont';
+    color: white;
+    font-size: 150px;
+}
