@@ -7,6 +7,10 @@ body{
   display: block;
 }
 
+a {
+color: lightblue;
+}
+
 .section {
   border: 1px solid white;
   padding: 10px;
